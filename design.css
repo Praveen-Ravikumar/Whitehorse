@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif ;
+  color: white;
+}
+
+.head {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+}
+
+/* heading of the page */
+.head {
+  /* background-color:black; */
+  color: aliceblue;
+  padding: 40px 20px;
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  width: 100%;
+
+  /* border-bottom: 2px solid white; */
+}
+/* heading text are changed into inline  */
+.head h1,
+li,
+ul {
+  display: inline;
+}
+/* whitehorse company name is edited */
+.headname {
+  padding-left: 25px;
+  font-size: 30px;
+}
+
+/* ul tag in head class ei home,design,etc */
+.headlist {
+  margin-left: 600px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.words a {
+  padding: 15px;
+  text-decoration: none;
+  color: #aca9a4;
+}
+.words a:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  transform: translateY(20px);
+  border-radius: 30px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.wrapper {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.851), rgb(0, 0, 0, 0.75)),
+    url(img/seatbg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+  margin: 0;
+}
+
+.wrapper .section1 {
+  width: 95%;
+  height: auto;
+  margin: 25px;
+  margin-right: 20px;
+  border-radius: 40px;
+}
+
+.section2 {
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section3 {
+  /* border: 1px solid white; */
+  /* height: 10rem; */
+  margin: 20px;
+  /* padding: 15px; */
+  /* display: inline; */
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: 0.8s ease-in-out;
+}
+
+.section3:hover img {
+  transform: scale(1.05);
+}
+
+.section3 img {
+  border-radius: 1rem;
+  width: 30vw;
+  height: 35vw;
+  object-fit: cover;
+  transition: 0.8s ease-in-out;
+}

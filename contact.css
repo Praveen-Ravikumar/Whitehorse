@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  font-family:'Times New Roman', Times, serif ;
+}
+
+.head {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+}
+
+/* heading of the page */
+.head {
+  /* background-color:black; */
+  color: aliceblue;
+  padding: 40px 20px;
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  width: 100%;
+
+  /* border-bottom: 2px solid white; */
+}
+/* heading text are changed into inline  */
+.head h1,
+li,
+ul {
+  display: inline;
+}
+/* whitehorse company name is edited */
+.headname {
+  padding-left: 25px;
+  font-size: 30px;
+}
+
+/* ul tag in head class ei home,design,etc */
+.headlist {
+  margin-left: 600px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.words a {
+  padding: 15px;
+  text-decoration: none;
+  color: #aca9a4;
+}
+.words a:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  transform: translateY(20px);
+  border-radius: 30px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.content {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.851), rgb(0, 0, 0, 0.75)),
+    url(img/seatbg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content .container{
+    width: 90%;
+    height: 78vh;
+    display: flex;
+}
+
+.container .map{
+    width: 50%;
+}
+
+.container .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.container .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contact h1{
+    font-size: 50px;
+}
+
+
+.wrapper{
+    
+  color: white;
+  width: 420px;
+  border-radius: 20px;
+  padding: 20px 40px ;
+  border: 2px solid rgb(221, 234, 255);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputbox{
+  /* position: relative; */
+  width:100%;
+  height:50px;
+  margin:30px 0px;
+  color:#F8F4EA (20%);
+  /* background: orange;*/
+}
+
+.wrapper .inputbox input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border:none;
+  outline: none;
+  border: 2px solid #F8F4EA;
+  border-radius:  40px;
+  font-size: 18px;
+  color:#F8F4EA ;
+  padding: 20px 45px 20px 20px;
+}
+
+.inputbox input::placeholder{
+  color:#F8F4EA;
+
+
+}
+
+.inputbox i{
+  position:absolute;
+  right:20px;
+  font-size: 30px;
+  top:30%;
+  transform: translateY(-20%);
+  color: #F8F4EA (10%);
+}
+
+.wrapper .remember-forget {
+  display: flex;
+  justify-content: space-between;
+  font-size:14.5 px;
+  margin: -15px 0 15px;
+
+}
+
+.remember-forget label input{
+  accent-color: #fff;
+  margin-right:  5px;
+}
+
+.remember-forget a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forget a:hover{
+  text-decoration: underline;
+}
+
+.wrapper .btn{
+  width: 100%;
+  height:45px;
+  border: none;
+  background: #fff;
+  outline:none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  font-size: 20px;
+  color: #333;
+  font-weight:600;
+
+}
+
+.wrapper .registerlink{
+  text-align: center;
+  font-size: center;
+  margin: 20px;
+
+}
+
+.registerlink p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerlink p a:hover{
+  text-decoration: underline;
+}

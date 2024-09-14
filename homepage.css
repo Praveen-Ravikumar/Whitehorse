@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif ;
+    color: white;
+    background-image:linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,0.75));
+
+
+}
+/* section of homefront */
+
+.homefront{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.851),rgb(0,0,0,0.75)),url(img/seatbg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.head{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+
+
+/* heading of the page */
+.head{
+    /* background-color:black; */
+    color: aliceblue;
+    padding: 40px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border-bottom: 2px solid white; */
+}
+/* heading text are changed into inline  */
+.head h1,li,ul{
+    display: inline;
+}
+/* whitehorse company name is edited */
+.headname{
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+/* ul tag in head class ei home,design,etc */
+.headlist{
+    margin-left: 600px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.words a{
+    padding:15px;
+    text-decoration: none;
+    color: #aca9a4;
+
+}
+.words a:hover{
+    color:black;
+    cursor: pointer;
+    background-color: white;
+    transform:translateY(20px);
+    border-radius: 30px;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+
+
+
+
+/* center content */
+
+.content{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+/* section about us */
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about-section{
+    color: white;
+    width: 100%;
+    padding: 50px
+}
+
+
+.aboutimg img{
+    width: 700px;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.abouttext{
+    /* text-align: left; */
+    margin-top: 30px;
+    padding: 0 2rem;
+    line-height: 50px;
+}
+
+.h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 25px;
+}
+.abouttext .p{
+    line-height: 15px;
+}
+
+
+
